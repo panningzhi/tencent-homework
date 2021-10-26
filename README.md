@@ -26,7 +26,7 @@ $ npm run dev
 访问页面, 如:
 * `https://docs.qq.com/homework/index.html`
 
-![](https://github.com/CntChen/tencent-office-homework-react/blob/master/docs/demo-page.jpg)
+![](https://github.com/CntChen/tencent-office-homework-react/blob/master/docs/demo-page.jpg?raw=true)
 
 ## 部署
 
@@ -35,6 +35,8 @@ $ npm run dist
 ```
 
 项目请部署到 CODING 项目托管平台进行作业提交. 请查看: [coding pages 部署指南](https://doc.weixin.qq.com/doc/p/0459c07f788862895c32702e6a71957d94b769fa?dver=2.1.27248283).
+
+部署示例: https://serverless-page-bucket-ubc1n4ck-1257789228.cos-website.ap-guangzhou.myqcloud.com/dist/index.html
 
 ## 开发文档
 
