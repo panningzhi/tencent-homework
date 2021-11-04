@@ -42,10 +42,12 @@ $ npm run dist
 
 请先阅读`必读`文档, 其他文档可按需阅读.
 
-* (必读)[项目目录](./docs/项目目录.md)
-* [技术栈清单](./docs/技术栈清单.md)
-* [单元测试](./docs/单元测试.md)
-* [HTML模板说明](./docs/HTML模板说明.md)
-* [构建配置](./docs/构建配置.md)
+https://tencent-school.coding.net/p/tencent-school/d/homework-react-template/git/tree/master/docs
+
+* (必读)项目目录
+* 技术栈清单
+* 单元测试
+* HTML模板说明
+* 构建配置
 
 ## EOF
