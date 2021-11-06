@@ -20,7 +20,7 @@ $ npm run dev
 
 ```js
 // 配置规则
-/docs.qq.com/homework/(.*)/ file:///你的工作目录/tencent-office-homework-react/dist/$1
+/docs.qq.com/homework/(.*)/ file:///你的工作目录/homework-react-template/dist/$1
 ```
 
 访问页面, 如:
