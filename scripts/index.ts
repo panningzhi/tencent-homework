@@ -1,5 +1,5 @@
+import fs from 'fs';
 import webpack from 'webpack';
-import { execSync } from 'child_process';
 import { outputPath, publicPath, releaseVersion } from './config';
 import getWebpackConfig from './webpack-config';
 import { getBuildFinishTime } from './utils';
@@ -50,8 +50,12 @@ class Build {
         console.log('当前构建版本:', releaseVersion);
 
         // 清理构建目录
-        execSync(`rm -rf ${outputPath}`);
-        execSync(`rm -rf ${publicPath}`);
+        fs.rmdirSync(outputPath, {
+            recursive: true,
+        });
+        fs.rmdirSync(publicPath, {
+            recursive: true,
+        });
     }
 
     private distBuild() {
