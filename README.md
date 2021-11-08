@@ -2,6 +2,15 @@
 
 > 腾讯文档前端课程 react 作业项目模板.
 
+在自己仓库上开发 react 组件和页面. 需要实现 checkbox多选, select多选框, slide进度条, input输入框, switch开关. 不允许使用组件库, 交互功能和样式参考demo.
+
+# demo
+
+页面demo视频: https://tencent-school.coding.net/p/tencent-school/d/homework-react-template/git/tree/master/example
+
+页面demo示例: https://serverless-page-bucket-ubc1n4ck-1257789228.cos-website.ap-guangzhou.myqcloud.com/dist/demo.html
+
+
 ## fork 项目
 
 请同学们先 fork 该项目到自己的名下.
@@ -34,7 +43,7 @@ $ npm run dev
 $ npm run dist
 ```
 
-项目请部署到 CODING 项目托管平台进行作业提交. 请查看: [coding pages 部署指南](https://doc.weixin.qq.com/doc/p/0459c07f788862895c32702e6a71957d94b769fa?dver=2.1.27248283).
+项目请部署到 CODING 项目托管平台进行作业提交. 请查看: [coding pages 部署指南](https://doc.weixin.qq.com/doc/p/2ef6ee9d7be4c95d0d99414ef28d5e1315568c8a?dver=2.1.27268707).
 
 部署示例: https://serverless-page-bucket-ubc1n4ck-1257789228.cos-website.ap-guangzhou.myqcloud.com/dist/index.html
 
